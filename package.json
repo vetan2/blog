@@ -10,11 +10,17 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "syncpack:list": "syncpack list-mismatches"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
+    "@vetan2/eslint-config-base": "^0.1.3",
+    "@vetan2/eslint-config-react": "^0.1.3",
+    "@vetan2/eslint-config-typescript": "^0.1.3",
+    "@vetan2/prettier-config": "^0.1.3",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.4",
+    "syncpack": "^9.8.4",
     "turbo": "latest"
   },
   "engines": {
