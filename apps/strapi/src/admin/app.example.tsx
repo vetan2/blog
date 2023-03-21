@@ -11,7 +11,7 @@ export default {
       // 'id',
       // 'it',
       // 'ja',
-      // 'ko',
+      "ko",
       // 'ms',
       // 'nl',
       // 'no',
@@ -30,6 +30,6 @@ export default {
     ],
   },
   bootstrap(app) {
-    console.log(app);
+    console.log(app)
   },
-};
+}
