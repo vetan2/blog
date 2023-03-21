@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "Comment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "username": {
+      "type": "string"
+    },
+    "is": {
+      "type": "boolean"
+    },
+    "isAdmin": {
+      "type": "boolean",
+      "default": false
+    },
+    "password": {
+      "type": "password",
+      "private": true
+    }
+  }
+}
