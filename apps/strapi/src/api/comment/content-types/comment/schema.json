@@ -23,15 +23,16 @@
       "type": "boolean",
       "default": false
     },
-    "password": {
-      "type": "password",
-      "private": true
-    },
     "post": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::post.post",
       "inversedBy": "comments"
+    },
+    "password": {
+      "type": "string",
+      "private": true,
+      "maxLength": 20
     }
   }
 }
