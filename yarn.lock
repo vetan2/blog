@@ -4190,57 +4190,57 @@ __metadata:
   dependencies:
     "@types/react": ^18.0.22
     "@vetan2-blog/tsconfig": "workspace:*"
-    "@vetan2/eslint-config-react": ^0.1.3
+    "@vetan2/eslint-config-react": ^0.1.4
     react: ^18.2.0
     typescript: ^4.9.5
   languageName: unknown
   linkType: soft
 
-"@vetan2/eslint-config-base@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@vetan2/eslint-config-base@npm:0.1.3"
+"@vetan2/eslint-config-base@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@vetan2/eslint-config-base@npm:0.1.4"
   dependencies:
     eslint-config-prettier: ^8.7.0
     eslint-plugin-import: ^2.27.5
   peerDependencies:
     eslint: "*"
-  checksum: ff69a9650f77a62f97bf12b6e2a935d4a8e20c5739186b20c0d107fe8adcc386cc7bdafb8f051b79bea4b5f3231607271ae72c8c7d57c1d56d559a58583a1017
+  checksum: 07f035bd7fe93c6cd9511111f1d26417ec5e687f243c8984ef350f4386717eb0e10f3535cda885307020fc51a7dd3a105b27af25f8ebfc5daa4cda28ef3223a2
   languageName: node
   linkType: hard
 
-"@vetan2/eslint-config-react@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@vetan2/eslint-config-react@npm:0.1.3"
+"@vetan2/eslint-config-react@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@vetan2/eslint-config-react@npm:0.1.4"
   dependencies:
-    "@vetan2/eslint-config-typescript": ^0.1.3
+    "@vetan2/eslint-config-typescript": ^0.1.4
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
   peerDependencies:
     eslint: "*"
-  checksum: 7e713009cc847ee78ae4b272c2c30a6ce121673d748d171f191f883dfa016ab62c4f2166eaa648a03b206b478c69cc717295a3f7badf8364ed275d7e66154ab3
+  checksum: bb015d1250fa8b5c4e892769a55e74bbfa32cf00c4dbc75fb788f5394b0f8143f53456db453b379b7f0de40df394fa8dd6c26996a838a5e95daf608409c434bd
   languageName: node
   linkType: hard
 
-"@vetan2/eslint-config-typescript@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@vetan2/eslint-config-typescript@npm:0.1.3"
+"@vetan2/eslint-config-typescript@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@vetan2/eslint-config-typescript@npm:0.1.4"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.55.0
     "@typescript-eslint/parser": ^5.55.0
-    "@vetan2/eslint-config-base": ^0.1.3
+    "@vetan2/eslint-config-base": ^0.1.4
     eslint-import-resolver-typescript: ^3.5.3
   peerDependencies:
     eslint: "*"
-  checksum: 9ab0e43df5c248dba59453d57e445e235c4eeca67252f17da4142d0d9cca08fefe13c77a6cd9c3f3bda19e99e1498f8e9d4065d36efc10c6798ac899426284cd
+  checksum: 26345e300676ece3430f5e10a31f2a247871460f56e93d85fe565a3cba31bf0985b4c4c597e68f280ab59aea2345805884c8c1b191e5eca41c85d3f092feaae3
   languageName: node
   linkType: hard
 
-"@vetan2/prettier-config@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@vetan2/prettier-config@npm:0.1.3"
+"@vetan2/prettier-config@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@vetan2/prettier-config@npm:0.1.4"
   peerDependencies:
     prettier: "*"
-  checksum: 5e4d9357a6c8a4f914fac810d868ce3ba0f792fdf2c017a6053a09f18400463d15492e47c74cf843827d1e3467744f8725c0733d7ed232d0767f0d32b5b17d0f
+  checksum: f133684a2969626766021cd0d1f0f413139731b687c3534876ed891089f7f86088e920021788fa71d2b1a96449c0b9b2f9d1f2939943e41f6f9e1df7402813f7
   languageName: node
   linkType: hard
 
@@ -5242,10 +5242,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "blog@workspace:."
   dependencies:
-    "@vetan2/eslint-config-base": ^0.1.3
-    "@vetan2/eslint-config-react": ^0.1.3
-    "@vetan2/eslint-config-typescript": ^0.1.3
-    "@vetan2/prettier-config": ^0.1.3
+    "@vetan2/eslint-config-base": ^0.1.4
+    "@vetan2/eslint-config-react": ^0.1.4
+    "@vetan2/eslint-config-typescript": ^0.1.4
+    "@vetan2/prettier-config": ^0.1.4
     eslint: ^8.36.0
     prettier: ^2.8.4
     syncpack: ^9.8.4
@@ -14171,7 +14171,7 @@ __metadata:
     "@strapi/plugin-i18n": 4.8.2
     "@strapi/plugin-users-permissions": 4.8.2
     "@strapi/strapi": 4.8.2
-    "@vetan2/eslint-config-typescript": ^0.1.3
+    "@vetan2/eslint-config-typescript": ^0.1.4
     eslint: ^8.36.0
     fp-ts: ^2.13.1
     mysql: 2.18.1
@@ -15397,7 +15397,7 @@ turbo@latest:
     "@types/react-dom": ^18.0.7
     "@vetan2-blog/tsconfig": "workspace:*"
     "@vetan2-blog/ui": "workspace:*"
-    "@vetan2/eslint-config-react": ^0.1.3
+    "@vetan2/eslint-config-react": ^0.1.4
     next: ^13.2.4
     react: ^18.2.0
     react-dom: ^18.2.0
