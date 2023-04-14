@@ -7,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
@@ -14,12 +15,12 @@
     "syncpack:list": "syncpack list-mismatches"
   },
   "devDependencies": {
-    "@vetan2/eslint-config-base": "^0.1.4",
-    "@vetan2/eslint-config-react": "^0.1.4",
-    "@vetan2/eslint-config-typescript": "^0.1.4",
-    "@vetan2/prettier-config": "^0.1.4",
-    "eslint": "^8.36.0",
-    "prettier": "^2.8.4",
+    "@vetan2/eslint-config-base": "^0.1.5",
+    "@vetan2/eslint-config-react": "^0.1.5",
+    "@vetan2/eslint-config-typescript": "^0.1.5",
+    "@vetan2/prettier-config": "^0.1.5",
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7",
     "syncpack": "^9.8.4",
     "turbo": "latest"
   },
